@@ -1,0 +1,24 @@
+[project]
+name = "weather-chatbot"
+version = "0.1.0"
+description = "Weather Chatbot"
+authors = [
+    {name = "ismatse6",email = "ismatse@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "python-decouple (>=3.8,<4.0)",
+    "langchain-openai",
+    "langgraph",
+    "requests",
+    "streamlit"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+packages = [{ include = "core", from = "weather-chatbot" }]
