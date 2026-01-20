@@ -9,6 +9,9 @@ A focused weather assistant that only answers weather-related questions. It uses
 - 🧪 Air quality always enabled (`aqi=yes`)
 - ⚡ Streamlit chat UI with tool-call details
 
+## 🖼️ UI Preview
+![Weather Chatbot UI](images/ui.png)
+
 ## 🧱 Project Structure
 ```
 weather-chatbot/
